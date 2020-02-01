@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-Link = "https://en.wikipedia.org/wiki/Forbes_list_of_Indian_billionaires"
+Link = "https://en.wikipedia.org/wiki/"
 Link_text = requests.get(Link).text
 soup = BeautifulSoup(Link_text,'lxml')
 #print(soup.prettify())#printing the whole data
