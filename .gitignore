@@ -136,6 +136,7 @@ __pycache__/
 .ipynb_checkpoints/
 *.h5
 *.json
+*.csv
 
 
 debug.txt
